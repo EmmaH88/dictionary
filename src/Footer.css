@@ -1,0 +1,16 @@
+.Footer {
+  text-align: center;
+}
+
+.Footer small {
+  margin: 0 auto;
+}
+
+.Footer a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.Footer a:hover {
+  color: lightgreen;
+}
