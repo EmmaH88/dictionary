@@ -7,11 +7,11 @@ export default function Dictionary() {
 
   function search(event) {
     event.preventDefault();
-    alert("Searching 🤔");
+    alert(`Searching for ${keyword} 🤔`);
   }
 
   function handleKeywordSearch(event) {
-    console.log(event);
+    setKeyword(event.target.value);
   }
 
   return (
